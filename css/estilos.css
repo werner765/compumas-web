@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+
+/* logo */
+.navbar-brand img {
+  height: 3rem;
+  width: auto;
+}
+
+/* navbar text size */
+.navbar-text {
+  font-size: 20px;
+}
+
+/* navbar toggler icon */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.text-hero-bold .text-h1 {
+  margin: 24px 0;
+}
+
+.text-hero-bold {
+  color: #341413;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 74px;
+}
+
+.text-h1 {
+  color: #341413;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 74px;
+}
+
+/* page-header */
+
+.page-header {
+  background: linear-gradient(rgba(53, 53, 53, 0.7), rgba(53, 53, 53, 0.7)),
+    url(../images/servicios/service-header-1.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: var(--light);
+}
+
+/* Services */
+.service-item img {
+  transition: 0.5s;
+}
+
+.service-item:hover img {
+  transform: scale(1.1);
+}
+
+.fw-medium {
+  text-decoration: none;
+  color: rgb(26, 117, 173);
+  font-weight: bold;
+}
+
+/* Custom text color, service section */
+.text-custom {
+  color: #3b3838;
+  font-weight: bold;
+  font-size: 40px;
+}
